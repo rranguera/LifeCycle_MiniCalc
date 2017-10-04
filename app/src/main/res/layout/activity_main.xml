@@ -99,22 +99,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="68dp"
+        android:layout_marginLeft="59dp"
         android:layout_marginStart="59dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1">
-
-        <RadioButton
-            android:id="@+id/rdb_producte"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="9dp"
-            android:text="Producte"
-            app:layout_constraintLeft_toLeftOf="@+id/rdb_suma"
-            app:layout_constraintTop_toBottomOf="@+id/rdb_suma"
-            tools:layout_constraintLeft_creator="1"
-            tools:layout_constraintTop_creator="1" />
 
         <RadioButton
             android:id="@+id/rdb_suma"
@@ -124,6 +114,17 @@
             android:text="Suma"
             app:layout_constraintLeft_toLeftOf="@+id/textView3"
             app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+        <RadioButton
+            android:id="@+id/rdb_producte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="Producte"
+            app:layout_constraintLeft_toLeftOf="@+id/rdb_suma"
+            app:layout_constraintTop_toBottomOf="@+id/rdb_suma"
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintTop_creator="1" />
     </RadioGroup>

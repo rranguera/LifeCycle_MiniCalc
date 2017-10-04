@@ -53,7 +53,15 @@ public class MainActivity extends AppCompatActivity {
 
     private void ferCalcul() {
 
-        Toast.makeText(this, "---olakase, aquí resultat operació---", Toast.LENGTH_LONG).show();
+        if (rdb1_sum.isChecked()){
+            Toast.makeText(this, "---aquí resultat de la suma---", Toast.LENGTH_LONG).show();
+        }
+        else if(rdb2_prod.isChecked()){
+            Toast.makeText(this, "---aquí resultat de la mult.---", Toast.LENGTH_LONG).show();
+        }
+        else{
+            Toast.makeText(this, "***Heu de triar una operació***", Toast.LENGTH_LONG).show();
+        }
     }
 
 
